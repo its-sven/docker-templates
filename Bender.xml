@@ -28,5 +28,4 @@ https://jez.me/</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="Port" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
-  <Config Name="Assets Path" Target="/www/assets" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/bender/assets/</Config>
 </Container>
