@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Bender</Name>
+  <Repository>jez500/bender</Repository>
+  <Registry>https://hub.docker.com/r/jez500/bender</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/jez500/bender/issues</Support>
+  <Project>https://github.com/jez500/bender</Project>
+  <Overview>A link dashboard that can be managed without any code. Ideal for service listings on your server. Heavily inspired by Homer dashboard and aims to provide the same functionality with one major change, No yaml required!&#xD;
+&#xD;
+All links can be managed via the UI including dragging and dropping your links to re-order or change groups. New pages and links can be added via the UI, as can global settings such as the app title, icon and theme.&#xD;
+&#xD;
+Author:&#xD;
+Jeremy Graham&#xD;
+https://jez.me/</Overview>
+  <Category>Productivity: Network:Web Network:Management</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/A75G/docker-templates/master/templates/homer.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/jez500/bender/master/static/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1661549568</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="Assets Path" Target="/www/assets" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/bender/assets/</Config>
+</Container>
