@@ -27,5 +27,5 @@ https://jez.me/</Overview>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Port" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="Port" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
 </Container>
