@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Memegen</Name>
+  <Repository>gcr.io/as-a-service-dev/meme</Repository>
+  <Registry>https://gcr.io/as-a-service-dev/memegen</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/as-a-service/meme/issues</Support>
+  <Project>https://github.com/as-a-service/meme</Project>
+  <Overview>A simple web service that generates a meme image given text and an image URL.&#xD;
+&#xD;
+-URL parameters:&#xD;
+&#xD;
+    image: URL of the image&#xD;
+    top: text to add at the top of the image&#xD;
+    bottom: text to add at the bottom of the image&#xD;
+&#xD;
+-Syntax:&#xD;
+&#xD;
+memegen.example/?top=Top Text&amp;amp;bottom=Bottom Text&amp;amp;image=http://url.of/your/image.jpg</Overview>
+  <Category>Tools: Other: MediaApp:Other</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/CorneliousJD/Docker-Templates/master/rickroll.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/its-sven/docker-templates/main/images/memegen.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1672082825</DateInstalled>
+  <DonateText>Donate</DonateText>
+  <DonateLink>http://paypal.me/corneliousjd</DonateLink>
+  <Requires/>
+  <Config Name="Web Port" Target="8080" Default="42069" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">42069</Config>
+</Container>
