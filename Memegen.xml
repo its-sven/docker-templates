@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Memegen</Name>
-  <Repository>gcr.io/as-a-service-dev/meme</Repository>
-  <Registry>https://gcr.io/as-a-service-dev/memegen</Registry>
+  <Repository>zigzockt/memegen</Repository>
+  <Registry>https://hub.docker.com/r/zigzockt/memegen</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
